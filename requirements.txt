@@ -1,0 +1,9 @@
+langchain 
+langchain-core 
+langchain-community 
+langchain-groq 
+langchain-astradb 
+sentence-transformers 
+pypdf 
+python-dotenv
+-e.

@@ -1,10 +1,10 @@
 import pandas as pd
-from lengchain_core.documents import Documnet
+from langchain_core.documents import Document
 
 def dataconverter():
-    product_data = pd.read_csv("data\flipkart_product_review.csv")
+    product_data = pd.read_csv("data/flipkart_product_review.csv")
 
-    data = product_data[["'product_title', 'review'"]]
+    data = product_data[["product_title", "review"]]
 
     product_list = []
 
